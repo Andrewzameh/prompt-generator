@@ -1,0 +1,116 @@
+{
+    "orca-hashes": {
+        "system": "### System:\n{system}\n\n",
+        "user": "### User:\n{prompt}\n\n### Assistant:",
+        "response": "\n{response}\n\n",
+        "input": ""
+    },
+    "openassistant": {
+        "system": "<|system|>{system}</s>",
+        "user": "<|prompter|>{prompt}</s><|assistant|>",
+        "response": "{response}</s>",
+        "input": ""
+    },
+    "vicuna": {
+        "system": "{system}\n",
+        "user": "USER: {prompt}\nASSISTANT:",
+        "response": " {response}</s>\n",
+        "input": ""
+    },
+    "falcon": {
+        "system": "{system}\n\n",
+        "user": "User: {prompt}\nAssistant:",
+        "response": " {response}\n",
+        "input": ""
+    },
+    "llama-2-chat": {
+        "system": "<s>[INST] <<SYS>>\n{system}\n<</SYS>>\n\n",
+        "user": " {prompt}[/INST]",
+        "response": " {response}</s><s> [INST]",
+        "input": ""
+    },
+    "llama-2-s": {
+        "system": "[INST] <<SYS>>\n{system}\n<</SYS>>\n\n",
+        "user": " {prompt} [/INST]",
+        "response": " {response}</s>[INST]",
+        "input": ""
+    },
+    "llama-2": {
+        "system": "[INST] <<SYS>>\n{system}\n<</SYS>>\n\n",
+        "user": " {prompt} [/INST]",
+        "response": " {response} [INST]",
+        "input": ""
+    },
+    "openai": {
+        "system": "system",
+        "user": "user",
+        "response": "assistant",
+        "input": ""
+    },
+    "mpt-chat": {
+        "system": "{system}",
+        "user": "{prompt}",
+        "response": "{response}",
+        "input": ""
+    },
+    "dolly-v2": {
+        "system": "{system}\n",
+        "user": "### Instruction:\n{prompt}\n### Response:",
+        "response": "{response}\n",
+        "input": ""
+    },
+    "alpaca": {
+        "system": "{system}\n",
+        "user": "### Instruction: {prompt}\n### Response:",
+        "response": "{response}\n",
+        "input": "### Instruction: {prompt}\n### Instruction: {input}\n### Response:"
+    },
+    "vicuna-v0": {
+        "system": "{system}",
+        "user": "{prompt}",
+        "response": "{response}",
+        "input": ""
+    },
+    "h2o": {
+        "system": "{system}",
+        "user": "{prompt}",
+        "response": "{response}",
+        "input": ""
+    },
+    "stable-vicuna": {
+        "system": "{system}",
+        "user": "{prompt}",
+        "response": "{response}",
+        "input": ""
+    },
+    "starchat": {
+        "system": "<system>\n{system}<|end|>",
+        "user": "<user>\n{prompt}<|end|>\n<assistant>",
+        "response": "\n{prompt}<|end|>",
+        "input": ""
+    },
+    "koala": {
+        "system": "{system}",
+        "user": "{prompt}",
+        "response": "{response}",
+        "input": ""
+    },
+    "oasst-pythia": {
+        "system": "{system}",
+        "user": "{prompt}",
+        "response": "{response}",
+        "input": ""
+    },
+    "oasst-llama": {
+        "system": "{system}",
+        "user": "{prompt}",
+        "response": "{response}",
+        "input": ""
+    },
+    "stablelm": {
+        "system": "{system}",
+        "user": "{prompt}",
+        "response": "{response}",
+        "input": ""
+    }
+}
